@@ -8,11 +8,13 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.veganplanet</groupId>
 	<artifactId>veganplanet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>veganplanet</name>
 	<description>veganplanet</description>
+
 	<properties>
 		<java.version>11</java.version>
 		<spring-boot.version>2.5.0</spring-boot.version>
@@ -28,6 +30,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.7.14</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.70</version>
 		</dependency>
 	</dependencies>
 
